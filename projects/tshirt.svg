@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="251px" viewBox="0 0 189 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.7%" y="-58.6%" width="125.4%" height="217.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="4.69029018" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sektion-GOTS" transform="translate(-625.000000, -383.000000)">
+            <g id="Illustration" transform="translate(625.000000, 384.000000)">
+                <g id="Group">
+                    <path d="M119.190571,25 L129.710938,25 L188.804688,50.1640625 L174.578125,87.1171875 L147.910156,87.1171875 L147.910156,178.679687 L94.4023438,178.679688 L40.8945313,178.679687 L40.8945313,87.1171875 L14.2265625,87.1171875 L0,50.1640625 L59.09375,25 L70.8094295,25 C76.0015103,32.8342125 84.897488,38 95,38 C105.102512,38 113.99849,32.8342125 119.190571,25 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <path d="M72,25.5791016 C83.6035156,21.8597005 91.4440104,20 95.5214844,20 C99.5989583,20 107.275391,21.8597005 118.550781,25.5791016" id="Path-3" stroke="#1C0E0E" stroke-width="4"></path>
+                    <path d="M96.5029297,19.5690512 C95.2583008,7.15889495 103.510742,11.8766684 103.510742,5.46162932 C103.510742,-0.953409739 95.5791016,-1.68046052 94,3.08614104" id="Path-4" stroke="#1C0E0E" stroke-width="2"></path>
+                </g>
+                <ellipse id="Oval-3" fill-opacity="0.15" fill="#071D2B" style="mix-blend-mode: multiply;" filter="url(#filter-1)" cx="95.5" cy="228" rx="55.5" ry="12"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
