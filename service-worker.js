@@ -8,6 +8,7 @@ const VERSION = 'v1';
 // This is a list of assets which should work offline. It works both with local
 // and external assets.
 const urls = [
+  '/',
   '/index.html',
   '/style.css',
 ];
