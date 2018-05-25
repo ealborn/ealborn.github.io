@@ -31,5 +31,15 @@
   </div>
 
 </div>
+
+<script>
+      'use strict';
+      // Before we can register our service worker we need to see if the current
+      // browser supports them.
+      if ('serviceWorker' in navigator) {
+        // We register the service worker using the navigation object.
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
   </body>
 </html>
