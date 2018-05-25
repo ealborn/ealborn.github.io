@@ -23,6 +23,9 @@ h2 {
   width: 70%;
   margin: auto;
 }
+.container {
+  width: 100vw;
+}
 
 .works {
   width: 70%;
