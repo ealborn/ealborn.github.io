@@ -31,7 +31,7 @@ h2 {
 }
 
 .works {
-  width: 70%;
+  width: 100vw;
   margin: auto;
   padding: 8%;
   font-size: 3vw;
