@@ -1,8 +1,8 @@
 'use strict';
 
-// We define a version number to tell the browser which version of application
-// it is using. Update this key whenever you update your assets such as styles,
-// scripts and images.
+// Define a version number to tell the browser which version of application
+// it is using. Update this key whenever assets such as styles,
+// scripts and images are updated.
 const VERSION = 'v1';
 
 // This is a list of assets which should work offline. It works both with local

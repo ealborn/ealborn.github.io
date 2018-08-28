@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Github portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119759269-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
 
-      gtag('config', 'UA-119759269-1');
-    </script>
-    <meta name="google-site-verification" content="l_bLwtSWRE8kWRW5UsijTis-fVMTUUHqFsPg9SBHbf8" />
-  </head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119759269-1">
+	</script>
+	<script>
+	     window.dataLayer = window.dataLayer || [];
+	     function gtag(){dataLayer.push(arguments);}
+	     gtag('js', new Date());
 
-  <body>
-    <h1>Hello!</h1>
-    <h2>This will be my future portfolio. For now just click on any link below to get to a project. /Emma</h2>
-<div class="container">
-  <img class="solros" src="solros.jpg" alt="solros">
-
-  <div class="works">
-    <ul>
-      <li><a href="#">T H R I V E</a>- click text to visit</li>
-
-    </ul>
-  </div>
-
-</div>
-
-    <script>
-      'use strict';
-      // Before we can register our service worker we need to see if the current
-      // browser supports them.
-      if ('serviceWorker' in navigator) {
-        // We register the service worker using the navigation object.
-        navigator.serviceWorker.register('service-worker.js');
-      }
-    </script>
-  </body>
+	     gtag('config', 'UA-119759269-1');
+	</script>
+	<meta content="l_bLwtSWRE8kWRW5UsijTis-fVMTUUHqFsPg9SBHbf8" name="google-site-verification">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Portfolio</h1>
+		<div class="content">
+			<p>Hello there!<br>
+			This will be my future portfolio page. But it's not ready yet. Please check back again later! //Emma</p>
+			<h2>Here is a list of some projects in the meantime.</h2>
+			<ul>
+				<li>
+					<a href="https://github.com/ealborn/cyberlinks">Cyberlinks</a> click text to visit
+				</li>
+				<li>
+					<a href="https://ealborn.github.io/fuzzy_memory/">Fuzzy memory</a> (link to play) or click <a href="https://github.com/ealborn/fuzzy_memory">here</a> to go to the GitHub repo.
+				</li>
+				<li>
+					<a href="https://github.com/ealborn/cyberlinks">Cyberlinks</a> click text to visit
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script>
+	     'use strict';
+	     if ('serviceWorker' in navigator) {
+	       navigator.serviceWorker.register('service-worker.js');
+	     }
+	</script>
+</body>
 </html>
