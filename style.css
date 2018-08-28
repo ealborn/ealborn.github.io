@@ -1,43 +1,95 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Verdana, "sans-serif";
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Open Sans', Verdana, sans-serif;
 }
 html {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+	width: 100vw;
+	height: 100vh;
 }
-
-h1{
-  text-align: center;
-  font-size: 5vw;
-  width: 70%;
-  margin: auto;
-  padding: 5vh;
-
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 85vw;
+	height: 100vh;
+	justify-content: center;
+	margin: 2vh auto 1vh;
+	background-color: #f0f5f5;
+}
+.content {
+	max-width: 75vw;
+	margin: 0px auto 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 5px 5px 5px grey;
+	padding: 1.5vh;
+	font-size: 2vh;
+}
+h1 {
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 5vh;
+	margin: 5vh auto 0 auto;
+	padding: 5vh;
 }
 h2 {
-  font-size: 3vw;
-  width: 70%;
-  margin: auto;
+	font-size: 2vh;
+	text-align: center;
+	margin: 5vh auto 5vh auto;
 }
-.container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 400px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		width: 85vw;
+		height: 100vh;
+		justify-content: center;
+		margin: 2vh auto 1vh;
+		background-color: #f0f5f5;
+	}
+	.content {
+		max-width: 70vw;
+		margin: 0px auto 0px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		box-shadow: 10px 10px 5px grey;
+		padding: 2vh;
+		font-size: 2vh;
+	}
+	h1 {
+		font-size: 6vh;
+		margin: 2vh auto 0 auto;
+		padding: 3vh;
+	}
 }
-
-.works {
-  width: 100vw;
-  margin: auto;
-  padding: 8%;
-  font-size: 3vw;
-}
-
-.solros {
-  margin:auto;
-  width: 50%;
+@media only screen and (min-width: 768px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		width: 70vw;
+		height: 100vh;
+		justify-content: center;
+		margin: 2vh auto 1vh;
+		background-color: #f0f5f5;
+	}
+	.content {
+		max-width: 50vw;
+		margin: 0px auto 0px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		box-shadow: 10px 10px 5px grey;
+		padding: 6vh;
+		font-size: 2.5vh;
+	}
+	h1 {
+		font-size: 8vh;
+		margin: 2vh auto 0 auto;
+		padding: 6vh;
+	}
+	h2 {
+		font-size: 3vh;
+	}
 }
